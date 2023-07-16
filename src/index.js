@@ -2,7 +2,7 @@ import axios from "axios";
 import SlimSelect from 'slim-select';
 import 'slim-select/dist/slimselect.css';
 import Notiflix from 'notiflix';
-axios.defaults.headers.common["x-api-key"] = "live_ifYEKjAPHTIh5Jo0el1oTPVTiBdDHxjjlUD6ithjbmMrCDu08ALmrMtNGMSBMhwi";
+axios.defaults.headers.common["x-api-key"] = "live_ZXkT9vtzECS4gV0ZQQ9puJ7EJUNaBehhgbJrcdxeC2nwQY9J0gtLuQCqq0TWn2be";
 import {fetchBreeds, fetchCatByBreed} from './cat-api';
 const selectBreeds = document.querySelector('.breed-select');
 const wrapperForCats = document.querySelector('.cat-info');
