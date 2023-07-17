@@ -1,0 +1,28 @@
+.cat-info img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .cat-info p {
+    margin-bottom: 10px;
+    
+  }
+  
+  .loader {
+    display: none;
+    color: green;
+  }
+  
+  
+  .error {
+    display: none;
+    color: red;
+  }
+  body {
+    font-family: "Roboto", "Arial", sans-serif;
+  }
+  
