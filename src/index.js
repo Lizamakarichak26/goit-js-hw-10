@@ -19,6 +19,7 @@ fetchBreeds().then(data => {
             select: '.breed-select',
         })
     }, 1000)}).catch(err => {
+        console.log(err)
         Notiflix.Notify.failure(failureText);
 });
 selectBreeds.addEventListener("change", onSelectCat);
@@ -32,5 +33,7 @@ function onSelectCat(e) {
             loaderImg.style.display = 'none';
             createCatMarkUp(catData);
         }).
-        catch(err => { Notiflix.Notify.failure(failureText) });
+        catch(err => {
+            console.log(err)
+             Notiflix.Notify.failure(failureText) });
 };
