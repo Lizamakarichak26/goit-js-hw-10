@@ -45,7 +45,7 @@ fetchBreeds()
     }
     breedSelect.style.display = "inline-block"
     loader.style.display = "none"
-    showBreedImage()
+    
   })
   .catch(showError);
 function showBreedImage() {
